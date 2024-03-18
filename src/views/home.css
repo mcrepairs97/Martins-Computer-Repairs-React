@@ -468,6 +468,10 @@
     height: var(--dl-size-size-large);
     display: none;
   }
+  .home-container08 {
+    background-size: cover;
+    background-image: url("/Assets/6cmtt7vzcc8ltckeyqa3gm-1500w.jpg");
+  }
   .home-container09 {
     width: var(--dl-size-size-medium);
   }
@@ -476,7 +480,7 @@
     justify-content: center;
   }
   .home-text15 {
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     font-size: 22px;
     text-align: center;
     font-family: Electrolize-Regular;
