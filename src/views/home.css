@@ -7,17 +7,22 @@
   flex-direction: column;
 }
 .home-navbar-interactive {
-  width: 100%;
+  width: var(--dl-size-size-maxwidth);
+  height: var(--dl-size-size-medium);
   display: flex;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
   justify-content: space-between;
 }
 .home-image {
-  height: 2rem;
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-large);
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
 }
 .home-desktop-menu {
   flex: 1;
@@ -44,14 +49,11 @@
   margin-left: var(--dl-space-space-twounits);
 }
 .home-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-}
-.home-login {
-  border-width: 0px;
-  margin-right: var(--dl-space-space-twounits);
 }
 .home-burger-menu {
   display: none;
@@ -138,6 +140,7 @@
 .home-container01 {
   flex: 0 0 auto;
   width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -151,14 +154,19 @@
 }
 .home-container03 {
   flex: 0 0 auto;
-  width: 100%;
+  width: var(--dl-size-size-maxwidth);
+  height: 400px;
   display: flex;
   align-items: center;
+  background-size: auto;
   justify-content: center;
+  background-image: url("/Assets/acer-swift-3x_sf314-510g_gold_modelmain-1400w.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .home-container04 {
   flex: 0 0 auto;
-  width: 200px;
+  width: auto;
   height: auto;
   display: flex;
   align-items: center;
@@ -166,17 +174,26 @@
 }
 .home-container05 {
   flex: 0 0 auto;
-  width: 200px;
+  width: 450px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+}
+.home-text10 {
+  font-size: 32px;
+  text-align: center;
+  font-family: "Electrolize-Regular";
 }
 .home-container06 {
   flex: 0 0 auto;
   width: 200px;
   display: flex;
-  align-items: flex-start;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
   flex-direction: column;
+}
+.home-button {
+  background-color: #34d420;
 }
 .home-container07 {
   flex: 0 0 auto;
@@ -190,161 +207,254 @@
 .home-container08 {
   flex: 0 0 auto;
   width: 100%;
+  height: var(--dl-size-size-xlarge);
   display: flex;
   align-items: flex-start;
+  background-size: cover;
   justify-content: center;
+  background-image: url("/Assets/6cmtt7vzcc8ltckeyqa3gm-1500w.jpg");
+  background-position: top;
 }
 .home-container09 {
   flex: 0 0 auto;
-  width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.home-container10 {
-  flex: 0 0 auto;
-  width: 200px;
+  width: auto;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+}
+.home-container10 {
+  width: auto;
+  height: 191px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text15 {
+  color: rgb(243, 243, 243);
+  font-size: 32px;
+  font-family: "Electrolize-Regular";
+  text-decoration: underline;
 }
 .home-container11 {
   flex: 0 0 auto;
-  width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.home-container12 {
-  flex: 0 0 auto;
   width: 100%;
   display: flex;
+  margin-top: var(--dl-space-space-twounits);
   align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
   justify-content: center;
 }
-.home-container13 {
+.home-container12 {
   flex: 0 0 auto;
   width: 200px;
   height: auto;
   display: flex;
   align-items: center;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-fourunits);
   flex-direction: column;
+}
+.home-container13 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-image1 {
+  width: 200px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius4);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
 }
 .home-container14 {
   flex: 0 0 auto;
   width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
 }
 .home-container15 {
   flex: 0 0 auto;
-  width: 200px;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+}
+.home-text16 {
+  color: rgb(32, 225, 27);
+  font-size: 20px;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  font-family: "Electrolize-Regular";
 }
 .home-container16 {
   flex: 0 0 auto;
   width: 100%;
+  height: 85px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.home-text17 {
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 .home-container17 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-}
-.home-container18 {
   flex: 0 0 auto;
   width: 200px;
   height: auto;
   display: flex;
   align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
   flex-direction: column;
+}
+.home-container18 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-image2 {
+  width: 200px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius4);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
 }
 .home-container19 {
   flex: 0 0 auto;
   width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
 }
 .home-container20 {
   flex: 0 0 auto;
-  width: 200px;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+}
+.home-text22 {
+  color: rgb(32, 225, 27);
+  font-size: 20px;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  font-family: "Electrolize-Regular";
 }
 .home-container21 {
   flex: 0 0 auto;
   width: 100%;
+  height: 85px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.home-text23 {
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 .home-container22 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-}
-.home-container23 {
   flex: 0 0 auto;
   width: 200px;
   height: auto;
   display: flex;
+  margin-top: 0px;
   align-items: center;
+  margin-left: var(--dl-space-space-fourunits);
+  margin-right: 0px;
+  margin-bottom: 0px;
   flex-direction: column;
+}
+.home-container23 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-image3 {
+  width: 200px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius4);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
 }
 .home-container24 {
   flex: 0 0 auto;
   width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
 }
 .home-container25 {
   flex: 0 0 auto;
-  width: 200px;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+}
+.home-text30 {
+  color: rgb(32, 225, 27);
+  font-size: 20px;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  font-family: "Electrolize-Regular";
 }
 .home-container26 {
   flex: 0 0 auto;
   width: 100%;
+  height: 85px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
-.home-container27 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
+.home-text31 {
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 @media(max-width: 767px) {
   .home-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: #474a48;
+  }
+  .home-image {
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-medium);
+    margin-right: 0px;
   }
   .home-desktop-menu {
     display: none;
@@ -353,6 +463,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .home-icon {
+    fill: #ffffff;
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-medium);
   }
   .home-text05 {
     margin-bottom: var(--dl-space-space-unit);
@@ -373,6 +488,88 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
+  .home-container03 {
+    height: 350px;
+    background-size: auto;
+    background-image: url("/Assets/acer-swift-3x_sf314-510g_gold_modelmain-1400w.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .home-container04 {
+    margin-right: 170px;
+  }
+  .home-container05 {
+    width: var(--dl-size-size-xxlarge);
+  }
+  .home-text10 {
+    width: auto;
+    font-size: 24px;
+    align-self: center;
+    text-align: center;
+    font-family: Electrolize-Regular;
+  }
+  .home-container06 {
+    margin-top: var(--dl-space-space-unit);
+    align-items: center;
+  }
+  .home-button {
+    font-style: normal;
+    font-weight: 700;
+    background-color: rgb(30, 212, 30);
+  }
+  .home-container08 {
+    background-size: cover;
+    background-image: url("/Assets/6cmtt7vzcc8ltckeyqa3gm-1500w.jpg");
+  }
+  .home-container11 {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-container12 {
+    margin-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-container15 {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .home-text16 {
+    text-align: center;
+  }
+  .home-text17 {
+    align-self: center;
+    text-align: center;
+  }
+  .home-container17 {
+    margin-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-container20 {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .home-text22 {
+    text-align: center;
+  }
+  .home-text23 {
+    align-self: center;
+    text-align: center;
+  }
+  .home-container22 {
+    margin-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-container25 {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .home-text30 {
+    text-align: center;
+  }
+  .home-text31 {
+    align-self: center;
+    text-align: center;
+  }
 }
 @media(max-width: 479px) {
   .home-navbar-interactive {
@@ -380,8 +577,8 @@
     background-color: #474A48;
   }
   .home-image {
-    width: var(--dl-size-size-small);
-    height: var(--dl-size-size-small);
+    width: 55px;
+    height: 55px;
   }
   .home-icon {
     fill: #ffffff;
@@ -428,18 +625,22 @@
   .home-container03 {
     height: var(--dl-size-size-xxlarge);
     background-size: contain;
-    background-image: url("/Assets/acer-swift-3x_sf314-510g_gold_modelmain-1500w.png");
+    background-image: url("/Assets/acer-swift-3x_sf314-510g_gold_modelmain-1400w.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
   }
   .home-container04 {
-    margin-bottom: var(--dl-space-space-threeunits);
+    margin-right: 230px;
+    margin-bottom: 0px;
   }
   .home-container05 {
-    align-items: center;
+    margin-right: 0px;
+    flex-direction: column;
   }
   .home-text10 {
+    align-self: center;
     text-align: center;
+    font-family: Electrolize-Regular;
   }
   .home-text11 {
     font-style: normal;
@@ -469,11 +670,9 @@
     display: none;
   }
   .home-container08 {
+    opacity: 1;
     background-size: cover;
     background-image: url("/Assets/6cmtt7vzcc8ltckeyqa3gm-1500w.jpg");
-  }
-  .home-container09 {
-    width: var(--dl-size-size-medium);
   }
   .home-container10 {
     height: 100px;
@@ -487,17 +686,14 @@
     text-decoration: underline;
   }
   .home-container11 {
-    width: var(--dl-size-size-medium);
-  }
-  .home-container12 {
     padding-top: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container13 {
+  .home-container12 {
     width: 130px;
     margin-right: var(--dl-space-space-halfunit);
   }
-  .home-container14 {
+  .home-container13 {
     width: 100%;
     height: 100px;
     margin-right: 0px;
@@ -510,7 +706,7 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .home-container15 {
+  .home-container14 {
     width: 100%;
     border-radius: var(--dl-radius-radius-radius4);
     background-color: #000000;
@@ -519,8 +715,8 @@
     border-bottom-left-radius: var(--dl-radius-radius-radius8);
     border-bottom-right-radius: var(--dl-radius-radius-radius8);
   }
-  .home-container16 {
-    height: auto;
+  .home-container15 {
+    height: 82px;
     align-items: center;
     border-radius: var(--dl-radius-radius-radius4);
     flex-direction: column;
@@ -528,44 +724,41 @@
   }
   .home-text16 {
     color: rgb(16, 249, 10);
-    font-size: 14px;
+    font-size: 13px;
     margin-top: var(--dl-space-space-halfunit);
     font-family: Electrolize-Regular;
   }
-  .home-text18 {
-    font-size: 13px;
-  }
-  .home-container17 {
+  .home-container16 {
     height: auto;
     margin-top: var(--dl-space-space-halfunit);
     align-items: center;
     margin-bottom: var(--dl-space-space-unit);
     justify-content: center;
   }
-  .home-text19 {
+  .home-text17 {
     color: rgb(255, 255, 255);
     font-size: 11px;
     text-align: center;
   }
-  .home-container18 {
+  .home-container17 {
     width: 130px;
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .home-container18 {
+    width: 100%;
+    height: 100px;
     margin-right: 0px;
+    border-radius: var(--dl-radius-radius-radius4);
+    background-size: cover;
+    background-image: url("/Assets/laptop-200h.png");
+    background-position: center;
+    border-top-left-radius: var(--dl-radius-radius-radius8);
+    border-top-right-radius: var(--dl-radius-radius-radius8);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .home-container19 {
     width: 100%;
-    height: 100px;
-    margin-right: 0px;
-    border-radius: var(--dl-radius-radius-radius4);
-    background-size: cover;
-    background-image: url("/Assets/customnpc-200h.png");
-    background-position: center;
-    border-top-left-radius: var(--dl-radius-radius-radius8);
-    border-top-right-radius: var(--dl-radius-radius-radius8);
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  .home-container20 {
-    width: 100%;
     border-radius: var(--dl-radius-radius-radius4);
     background-color: #000000;
     border-top-left-radius: 0;
@@ -573,54 +766,49 @@
     border-bottom-left-radius: var(--dl-radius-radius-radius8);
     border-bottom-right-radius: var(--dl-radius-radius-radius8);
   }
-  .home-container21 {
-    height: auto;
+  .home-container20 {
+    height: 82px;
     align-items: center;
     border-radius: var(--dl-radius-radius-radius4);
     flex-direction: column;
     justify-content: flex-start;
   }
-  .home-text27 {
+  .home-text22 {
     color: rgb(16, 249, 10);
-    font-size: 14px;
+    font-size: 13px;
     margin-top: var(--dl-space-space-halfunit);
     font-family: Electrolize-Regular;
   }
-  .home-text29 {
-    font-size: 13px;
-  }
-  .home-container22 {
-    height: 100%;
+  .home-container21 {
+    height: auto;
     margin-top: var(--dl-space-space-halfunit);
     align-items: center;
     margin-bottom: var(--dl-space-space-unit);
     justify-content: center;
   }
-  .home-text30 {
+  .home-text23 {
     color: rgb(255, 255, 255);
     font-size: 11px;
     text-align: center;
   }
-  .home-container23 {
+  .home-container22 {
     width: 130px;
-    margin-left: var(--dl-space-space-halfunit);
-    margin-right: 0px;
+    margin-right: var(--dl-space-space-halfunit);
   }
-  .home-container24 {
+  .home-container23 {
     width: 100%;
     height: 100px;
-    margin-left: 0px;
     margin-right: 0px;
     border-radius: var(--dl-radius-radius-radius4);
     background-size: cover;
-    background-image: url("/Assets/abtt2-200h.png");
+    background-image: url("/Assets/laptop-200h.png");
     background-position: center;
     border-top-left-radius: var(--dl-radius-radius-radius8);
     border-top-right-radius: var(--dl-radius-radius-radius8);
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .home-container25 {
+  .home-container24 {
     width: 100%;
     border-radius: var(--dl-radius-radius-radius4);
     background-color: #000000;
@@ -629,26 +817,27 @@
     border-bottom-left-radius: var(--dl-radius-radius-radius8);
     border-bottom-right-radius: var(--dl-radius-radius-radius8);
   }
-  .home-container26 {
+  .home-container25 {
+    height: 82px;
     align-items: center;
     border-radius: var(--dl-radius-radius-radius4);
     flex-direction: column;
     justify-content: flex-start;
   }
-  .home-text34 {
+  .home-text30 {
     color: rgb(16, 249, 10);
     font-size: 13px;
     margin-top: var(--dl-space-space-halfunit);
     font-family: Electrolize-Regular;
   }
-  .home-container27 {
-    height: 100%;
+  .home-container26 {
+    height: auto;
     margin-top: var(--dl-space-space-halfunit);
     align-items: center;
     margin-bottom: var(--dl-space-space-unit);
     justify-content: center;
   }
-  .home-text35 {
+  .home-text31 {
     color: rgb(255, 255, 255);
     font-size: 11px;
     text-align: center;

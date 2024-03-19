@@ -21,10 +21,7 @@ const Home = (props) => {
             <span className="home-text03">Team</span>
             <span className="home-text04">Blog</span>
           </nav>
-          <div className="home-buttons">
-            <button className="home-login button">Login</button>
-            <button className="button">Register</button>
-          </div>
+          <div className="home-buttons"></div>
         </div>
         <div data-thq="thq-burger-menu" className="home-burger-menu">
           <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -75,7 +72,7 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-container06">
-                <button type="button" className="button home-button">
+                <button type="button" className="home-button button">
                   Book Now!
                 </button>
               </div>
@@ -85,32 +82,28 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-container08">
-        <div className="home-container09"></div>
-        <div className="home-container10">
-          <span className="home-text15">WHAT WE DO</span>
+        <div className="home-container09">
+          <div className="home-container10">
+            <span className="home-text15">WHAT WE DO</span>
+          </div>
         </div>
-        <div className="home-container11"></div>
       </div>
-      <div className="home-container12">
-        <div className="home-container13">
-          <div className="home-container14"></div>
-          <div className="home-container15">
-            <div className="home-container16">
-              <h1 className="home-text16">
-                <span>
-                  CUSTOM
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text18">BUILDS</span>
-              </h1>
-              <div className="home-container17">
-                <span className="home-text19">
+      <div className="home-container11">
+        <div className="home-container12">
+          <div className="home-container13">
+            <img
+              src="/Assets/laptop-200h.png"
+              alt="image"
+              className="home-image1"
+            />
+          </div>
+          <div className="home-container14">
+            <div className="home-container15">
+              <h1 className="home-text16">SYSTEM UPGRADES</h1>
+              <div className="home-container16">
+                <span className="home-text17">
                   <span>
-                    Is it that time
+                    IS IT THAT TIME TO UPGRADE YOUR
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -118,58 +111,55 @@ const Home = (props) => {
                     />
                   </span>
                   <br></br>
-                  <span>again to </span>
-                  <span>
-                    upgrade
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <br></br>
-                  <span>your system?</span>
+                  <span>SYSTEM AGAIN</span>
                   <br></br>
                 </span>
               </div>
             </div>
           </div>
         </div>
-        <div className="home-container18">
-          <div className="home-container19"></div>
-          <div className="home-container20">
-            <div className="home-container21">
-              <h1 className="home-text27">
-                <span>
-                  CUSTOM
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text29">BUILDS</span>
-              </h1>
-              <div className="home-container22">
-                <span className="home-text30">
-                  <span>Select parts to spec</span>
+        <div className="home-container17">
+          <div className="home-container18">
+            <img
+              src="/Assets/customnpc-200h.png"
+              alt="image"
+              className="home-image2"
+            />
+          </div>
+          <div className="home-container19">
+            <div className="home-container20">
+              <h1 className="home-text22">CUSTOM BUILDS</h1>
+              <div className="home-container21">
+                <span className="home-text23">
+                  <span>SELECT PARTS TO</span>
                   <br></br>
-                  <span>and design your own system.</span>
+                  <span>SPEC &amp; DESIGN</span>
+                  <br></br>
+                  <span>YOUR OWN SYSTEM</span>
+                  <br></br>
                 </span>
               </div>
             </div>
           </div>
         </div>
-        <div className="home-container23">
-          <div className="home-container24"></div>
-          <div className="home-container25">
-            <div className="home-container26">
-              <h1 className="home-text34">LAPTOP MODULES</h1>
-              <div className="home-container27">
-                <span className="home-text35">
-                  <span>
-                    We replace LCD, Keyboards &amp; batteries for most laptops
-                  </span>
+        <div className="home-container22">
+          <div className="home-container23">
+            <img
+              src="/Assets/abtt2-200h.png"
+              alt="image"
+              className="home-image3"
+            />
+          </div>
+          <div className="home-container24">
+            <div className="home-container25">
+              <h1 className="home-text30">LAPTOP MODULES</h1>
+              <div className="home-container26">
+                <span className="home-text31">
+                  <span>WE ALSO REPLACE</span>
+                  <br></br>
+                  <span>LCD, KEYBOARDS &amp;</span>
+                  <br></br>
+                  <span>BATTERIES.</span>
                   <br></br>
                 </span>
               </div>
