@@ -67,7 +67,9 @@ const Home = (props) => {
                 <span className="home-text10">
                   <span className="home-text11">Need a fix or upgrade?</span>
                   <br className="home-text12"></br>
-                  <span className="home-text13">Maybe due for a service!</span>
+                  <span className="home-text13">
+                    Maybe you due for a service!
+                  </span>
                   <br></br>
                 </span>
               </div>
@@ -77,33 +79,41 @@ const Home = (props) => {
                 </button>
               </div>
             </div>
-            <div className="home-container07"></div>
           </div>
         </div>
       </div>
-      <div className="home-container08">
-        <div className="home-container09">
-          <div className="home-container10">
+      <div className="home-container07">
+        <div className="home-container08">
+          <div className="home-container09">
             <span className="home-text15">WHAT WE DO</span>
           </div>
         </div>
       </div>
-      <div className="home-container11">
-        <div className="home-container12">
-          <div className="home-container13">
+      <div className="home-container10">
+        <div className="home-container11">
+          <div className="home-container12">
             <img
               src="/Assets/laptop-200h.png"
               alt="image"
               className="home-image1"
             />
           </div>
-          <div className="home-container14">
-            <div className="home-container15">
+          <div className="home-container13">
+            <div className="home-container14">
               <h1 className="home-text16">SYSTEM UPGRADES</h1>
-              <div className="home-container16">
+              <div className="home-container15">
                 <span className="home-text17">
                   <span>
-                    IS IT THAT TIME TO UPGRADE YOUR
+                    IS IT THAT TIME
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    TO UPGRADE YOUR
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -118,19 +128,19 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-container17">
-          <div className="home-container18">
+        <div className="home-container16">
+          <div className="home-container17">
             <img
               src="/Assets/customnpc-200h.png"
               alt="image"
               className="home-image2"
             />
           </div>
-          <div className="home-container19">
-            <div className="home-container20">
-              <h1 className="home-text22">CUSTOM BUILDS</h1>
-              <div className="home-container21">
-                <span className="home-text23">
+          <div className="home-container18">
+            <div className="home-container19">
+              <h1 className="home-text24">CUSTOM BUILDS</h1>
+              <div className="home-container20">
+                <span className="home-text25">
                   <span>SELECT PARTS TO</span>
                   <br></br>
                   <span>SPEC &amp; DESIGN</span>
@@ -142,19 +152,19 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-container22">
-          <div className="home-container23">
+        <div className="home-container21">
+          <div className="home-container22">
             <img
               src="/Assets/abtt2-200h.png"
               alt="image"
               className="home-image3"
             />
           </div>
-          <div className="home-container24">
-            <div className="home-container25">
-              <h1 className="home-text30">LAPTOP MODULES</h1>
-              <div className="home-container26">
-                <span className="home-text31">
+          <div className="home-container23">
+            <div className="home-container24">
+              <h1 className="home-text32">LAPTOP MODULES</h1>
+              <div className="home-container25">
+                <span className="home-text33">
                   <span>WE ALSO REPLACE</span>
                   <br></br>
                   <span>LCD, KEYBOARDS &amp;</span>

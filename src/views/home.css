@@ -155,12 +155,12 @@
 .home-container03 {
   flex: 0 0 auto;
   width: var(--dl-size-size-maxwidth);
-  height: 400px;
+  height: 700px;
   display: flex;
   align-items: center;
-  background-size: auto;
+  background-size: cover;
   justify-content: center;
-  background-image: url("/Assets/acer-swift-3x_sf314-510g_gold_modelmain-1400w.png");
+  background-image: url("/Assets/untitled-1-1400w.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -170,6 +170,7 @@
   height: auto;
   display: flex;
   align-items: center;
+  margin-right: 500px;
   flex-direction: column;
 }
 .home-container05 {
@@ -183,6 +184,7 @@
   font-size: 32px;
   text-align: center;
   font-family: "Electrolize-Regular";
+  margin-right: 0px;
 }
 .home-container06 {
   flex: 0 0 auto;
@@ -193,18 +195,11 @@
   flex-direction: column;
 }
 .home-button {
-  background-color: #34d420;
+  font-style: normal;
+  font-weight: 700;
+  background-color: rgb(52, 212, 32);
 }
 .home-container07 {
-  flex: 0 0 auto;
-  width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.home-container08 {
   flex: 0 0 auto;
   width: 100%;
   height: var(--dl-size-size-xlarge);
@@ -215,7 +210,7 @@
   background-image: url("/Assets/6cmtt7vzcc8ltckeyqa3gm-1500w.jpg");
   background-position: top;
 }
-.home-container09 {
+.home-container08 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -224,7 +219,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-container10 {
+.home-container09 {
   width: auto;
   height: 191px;
   display: flex;
@@ -238,9 +233,10 @@
   font-family: "Electrolize-Regular";
   text-decoration: underline;
 }
-.home-container11 {
+.home-container10 {
   flex: 0 0 auto;
   width: 100%;
+  height: 600px;
   display: flex;
   margin-top: var(--dl-space-space-twounits);
   align-items: center;
@@ -249,9 +245,9 @@
   margin-bottom: var(--dl-space-space-twounits);
   justify-content: center;
 }
-.home-container12 {
+.home-container11 {
   flex: 0 0 auto;
-  width: 200px;
+  width: auto;
   height: auto;
   display: flex;
   align-items: center;
@@ -259,22 +255,26 @@
   margin-right: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.home-container13 {
+.home-container12 {
   flex: 0 0 auto;
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-xlarge);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 .home-image1 {
-  width: 200px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
   border-top-left-radius: var(--dl-radius-radius-radius8);
   border-top-right-radius: var(--dl-radius-radius-radius8);
 }
-.home-container14 {
+.home-container13 {
   flex: 0 0 auto;
-  width: 200px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   border-radius: var(--dl-radius-radius-radius4);
@@ -286,7 +286,7 @@
   border-bottom-left-radius: var(--dl-radius-radius-radius8);
   border-bottom-right-radius: var(--dl-radius-radius-radius8);
 }
-.home-container15 {
+.home-container14 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -301,7 +301,7 @@
   text-align: center;
   font-family: "Electrolize-Regular";
 }
-.home-container16 {
+.home-container15 {
   flex: 0 0 auto;
   width: 100%;
   height: 85px;
@@ -313,32 +313,36 @@
   color: rgb(255, 255, 255);
   text-align: center;
 }
-.home-container17 {
+.home-container16 {
   flex: 0 0 auto;
-  width: 200px;
+  width: auto;
   height: auto;
   display: flex;
   align-items: center;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: var(--dl-space-space-threeunits);
+  margin-right: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.home-container18 {
+.home-container17 {
   flex: 0 0 auto;
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-xlarge);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 .home-image2 {
-  width: 200px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
   border-top-left-radius: var(--dl-radius-radius-radius8);
   border-top-right-radius: var(--dl-radius-radius-radius8);
 }
-.home-container19 {
+.home-container18 {
   flex: 0 0 auto;
-  width: 200px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   border-radius: var(--dl-radius-radius-radius4);
@@ -350,7 +354,7 @@
   border-bottom-left-radius: var(--dl-radius-radius-radius8);
   border-bottom-right-radius: var(--dl-radius-radius-radius8);
 }
-.home-container20 {
+.home-container19 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -358,14 +362,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text22 {
+.home-text24 {
   color: rgb(32, 225, 27);
   font-size: 20px;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
   font-family: "Electrolize-Regular";
 }
-.home-container21 {
+.home-container20 {
   flex: 0 0 auto;
   width: 100%;
   height: 85px;
@@ -373,13 +377,13 @@
   align-items: center;
   justify-content: center;
 }
-.home-text23 {
+.home-text25 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-.home-container22 {
+.home-container21 {
   flex: 0 0 auto;
-  width: 200px;
+  width: auto;
   height: auto;
   display: flex;
   margin-top: 0px;
@@ -389,22 +393,26 @@
   margin-bottom: 0px;
   flex-direction: column;
 }
-.home-container23 {
+.home-container22 {
   flex: 0 0 auto;
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-xlarge);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 .home-image3 {
-  width: 200px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
   border-top-left-radius: var(--dl-radius-radius-radius8);
   border-top-right-radius: var(--dl-radius-radius-radius8);
 }
-.home-container24 {
+.home-container23 {
   flex: 0 0 auto;
-  width: 200px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   border-radius: var(--dl-radius-radius-radius4);
@@ -416,7 +424,7 @@
   border-bottom-left-radius: var(--dl-radius-radius-radius8);
   border-bottom-right-radius: var(--dl-radius-radius-radius8);
 }
-.home-container25 {
+.home-container24 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -424,14 +432,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text30 {
+.home-text32 {
   color: rgb(32, 225, 27);
   font-size: 20px;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
   font-family: "Electrolize-Regular";
 }
-.home-container26 {
+.home-container25 {
   flex: 0 0 auto;
   width: 100%;
   height: 85px;
@@ -439,7 +447,7 @@
   align-items: center;
   justify-content: center;
 }
-.home-text31 {
+.home-text33 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -491,7 +499,7 @@
   .home-container03 {
     height: 350px;
     background-size: auto;
-    background-image: url("/Assets/acer-swift-3x_sf314-510g_gold_modelmain-1400w.png");
+    background-image: a209070e-68db-4055-9404-219a2e05ed36;
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -517,18 +525,18 @@
     font-weight: 700;
     background-color: rgb(30, 212, 30);
   }
-  .home-container08 {
+  .home-container07 {
     background-size: cover;
     background-image: url("/Assets/6cmtt7vzcc8ltckeyqa3gm-1500w.jpg");
   }
-  .home-container11 {
+  .home-container10 {
     padding-top: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container12 {
+  .home-container11 {
     margin-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container15 {
+  .home-container14 {
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
@@ -540,33 +548,33 @@
     align-self: center;
     text-align: center;
   }
-  .home-container17 {
+  .home-container16 {
     margin-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container20 {
+  .home-container19 {
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .home-text22 {
+  .home-text24 {
     text-align: center;
   }
-  .home-text23 {
+  .home-text25 {
     align-self: center;
     text-align: center;
   }
-  .home-container22 {
+  .home-container21 {
     margin-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container25 {
+  .home-container24 {
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .home-text30 {
+  .home-text32 {
     text-align: center;
   }
-  .home-text31 {
+  .home-text33 {
     align-self: center;
     text-align: center;
   }
@@ -625,7 +633,7 @@
   .home-container03 {
     height: var(--dl-size-size-xxlarge);
     background-size: contain;
-    background-image: url("/Assets/acer-swift-3x_sf314-510g_gold_modelmain-1400w.png");
+    background-image: a209070e-68db-4055-9404-219a2e05ed36;
     background-repeat: no-repeat;
     background-position: right;
   }
@@ -666,15 +674,11 @@
     background-color: rgb(30, 212, 30);
   }
   .home-container07 {
-    height: var(--dl-size-size-large);
-    display: none;
-  }
-  .home-container08 {
     opacity: 1;
     background-size: cover;
     background-image: url("/Assets/6cmtt7vzcc8ltckeyqa3gm-1500w.jpg");
   }
-  .home-container10 {
+  .home-container09 {
     height: 100px;
     justify-content: center;
   }
@@ -685,15 +689,15 @@
     font-family: Electrolize-Regular;
     text-decoration: underline;
   }
-  .home-container11 {
+  .home-container10 {
     padding-top: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .home-container12 {
+  .home-container11 {
     width: 130px;
     margin-right: var(--dl-space-space-halfunit);
   }
-  .home-container13 {
+  .home-container12 {
     width: 100%;
     height: 100px;
     margin-right: 0px;
@@ -706,7 +710,7 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .home-container14 {
+  .home-container13 {
     width: 100%;
     border-radius: var(--dl-radius-radius-radius4);
     background-color: #000000;
@@ -715,7 +719,7 @@
     border-bottom-left-radius: var(--dl-radius-radius-radius8);
     border-bottom-right-radius: var(--dl-radius-radius-radius8);
   }
-  .home-container15 {
+  .home-container14 {
     height: 82px;
     align-items: center;
     border-radius: var(--dl-radius-radius-radius4);
@@ -728,7 +732,7 @@
     margin-top: var(--dl-space-space-halfunit);
     font-family: Electrolize-Regular;
   }
-  .home-container16 {
+  .home-container15 {
     height: auto;
     margin-top: var(--dl-space-space-halfunit);
     align-items: center;
@@ -740,11 +744,11 @@
     font-size: 11px;
     text-align: center;
   }
-  .home-container17 {
+  .home-container16 {
     width: 130px;
     margin-right: var(--dl-space-space-halfunit);
   }
-  .home-container18 {
+  .home-container17 {
     width: 100%;
     height: 100px;
     margin-right: 0px;
@@ -757,7 +761,7 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .home-container19 {
+  .home-container18 {
     width: 100%;
     border-radius: var(--dl-radius-radius-radius4);
     background-color: #000000;
@@ -766,36 +770,36 @@
     border-bottom-left-radius: var(--dl-radius-radius-radius8);
     border-bottom-right-radius: var(--dl-radius-radius-radius8);
   }
-  .home-container20 {
+  .home-container19 {
     height: 82px;
     align-items: center;
     border-radius: var(--dl-radius-radius-radius4);
     flex-direction: column;
     justify-content: flex-start;
   }
-  .home-text22 {
+  .home-text24 {
     color: rgb(16, 249, 10);
     font-size: 13px;
     margin-top: var(--dl-space-space-halfunit);
     font-family: Electrolize-Regular;
   }
-  .home-container21 {
+  .home-container20 {
     height: auto;
     margin-top: var(--dl-space-space-halfunit);
     align-items: center;
     margin-bottom: var(--dl-space-space-unit);
     justify-content: center;
   }
-  .home-text23 {
+  .home-text25 {
     color: rgb(255, 255, 255);
     font-size: 11px;
     text-align: center;
   }
-  .home-container22 {
+  .home-container21 {
     width: 130px;
     margin-right: var(--dl-space-space-halfunit);
   }
-  .home-container23 {
+  .home-container22 {
     width: 100%;
     height: 100px;
     margin-right: 0px;
@@ -808,7 +812,7 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
-  .home-container24 {
+  .home-container23 {
     width: 100%;
     border-radius: var(--dl-radius-radius-radius4);
     background-color: #000000;
@@ -817,27 +821,27 @@
     border-bottom-left-radius: var(--dl-radius-radius-radius8);
     border-bottom-right-radius: var(--dl-radius-radius-radius8);
   }
-  .home-container25 {
+  .home-container24 {
     height: 82px;
     align-items: center;
     border-radius: var(--dl-radius-radius-radius4);
     flex-direction: column;
     justify-content: flex-start;
   }
-  .home-text30 {
+  .home-text32 {
     color: rgb(16, 249, 10);
     font-size: 13px;
     margin-top: var(--dl-space-space-halfunit);
     font-family: Electrolize-Regular;
   }
-  .home-container26 {
+  .home-container25 {
     height: auto;
     margin-top: var(--dl-space-space-halfunit);
     align-items: center;
     margin-bottom: var(--dl-space-space-unit);
     justify-content: center;
   }
-  .home-text31 {
+  .home-text33 {
     color: rgb(255, 255, 255);
     font-size: 11px;
     text-align: center;
