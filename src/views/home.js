@@ -85,24 +85,26 @@ const Home = (props) => {
       <div className="home-container07">
         <div className="home-container08">
           <div className="home-container09">
-            <span className="home-text15">WHAT WE DO</span>
+            <div className="home-container10">
+              <span className="home-text15">WHAT WE DO</span>
+            </div>
           </div>
         </div>
       </div>
-      <div className="home-container10">
-        <div className="home-container11">
-          <div className="home-container12">
-            <div className="home-container13">
+      <div className="home-container11">
+        <div className="home-container12">
+          <div className="home-container13">
+            <div className="home-container14">
               <img
                 src="/Assets/laptop-200h.png"
                 alt="image"
                 className="home-image1"
               />
             </div>
-            <div className="home-container14">
-              <div className="home-container15">
+            <div className="home-container15">
+              <div className="home-container16">
                 <h1 className="home-text16">SYSTEM UPGRADES</h1>
-                <div className="home-container16">
+                <div className="home-container17">
                   <span className="home-text17">
                     <span>
                       IS IT THAT TIME
@@ -130,18 +132,18 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-container17">
-          <div className="home-container18">
+        <div className="home-container18">
+          <div className="home-container19">
             <img
               src="/Assets/customnpc-200h.png"
               alt="image"
               className="home-image2"
             />
           </div>
-          <div className="home-container19">
-            <div className="home-container20">
+          <div className="home-container20">
+            <div className="home-container21">
               <h1 className="home-text24">CUSTOM BUILDS</h1>
-              <div className="home-container21">
+              <div className="home-container22">
                 <span className="home-text25">
                   <span>SELECT PARTS TO</span>
                   <br></br>
@@ -154,18 +156,18 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-container22">
-          <div className="home-container23">
+        <div className="home-container23">
+          <div className="home-container24">
             <img
               src="/Assets/abtt2-200h.png"
               alt="image"
               className="home-image3"
             />
           </div>
-          <div className="home-container24">
-            <div className="home-container25">
+          <div className="home-container25">
+            <div className="home-container26">
               <h1 className="home-text32">LAPTOP MODULES</h1>
-              <div className="home-container26">
+              <div className="home-container27">
                 <span className="home-text33">
                   <span>WE ALSO REPLACE</span>
                   <br></br>
@@ -179,11 +181,11 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-container27"></div>
+      <div className="home-container28"></div>
       <footer className="home-footer">
-        <div className="home-container28">
+        <div className="home-container29">
           <div className="home-links-container">
-            <div className="home-container29">
+            <div className="home-container30">
               <div className="home-contact">
                 <span className="home-text40">CONTACT US</span>
                 <span className="home-text41">
@@ -203,7 +205,7 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-container30">
+            <div className="home-container31">
               <div className="home-product-container">
                 <span className="home-text44">BUSINESS HOURS</span>
                 <span className="home-text45">
@@ -253,10 +255,10 @@ const Home = (props) => {
               </div>
               <div className="home-company-container">
                 <span className="home-text78">LOCATION</span>
-                <div className="home-container31">
-                  <div className="home-container32">
+                <div className="home-container32">
+                  <div className="home-container33">
                     <Script
-                      html={`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.8966170574054!2d31.027639575548086!3d-29.89607937499874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8895273770221aa7%3A0x26bd2e1d25aaec31!2sMartin&#39;s%20Computer%20Repairs!5e0!3m2!1sen!2sza!4v1710856115688!5m2!1sen!2sza" width="1920" height="1080" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`}
+                      html={`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55330.59863435915!2d30.9672935243942!3d-29.9172261018582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7a94db5f1c88f%3A0xd07df68fcecef85a!2sBluff%2C%204052!5e0!3m2!1sen!2sza!4v1710857839347!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`}
                     ></Script>
                   </div>
                 </div>
@@ -265,8 +267,8 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-separator"></div>
-        <div className="home-container33">
-          <div className="home-container34">
+        <div className="home-container34">
+          <div className="home-container35">
             <span className="home-text79">
               Copyright © 2024 Martin&apos;s Computer Repairs
               <span
@@ -277,9 +279,9 @@ const Home = (props) => {
             </span>
           </div>
         </div>
-        <div className="home-container35">
-          <div className="home-container36">
-            <div className="home-container37"></div>
+        <div className="home-container36">
+          <div className="home-container37">
+            <div className="home-container38"></div>
           </div>
         </div>
       </footer>
