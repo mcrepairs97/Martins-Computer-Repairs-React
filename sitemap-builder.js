@@ -33,6 +33,6 @@ class UniqueSitemap extends Sitemap {
 
 (
     new UniqueSitemap(router())
-        .build('https://example.com')
+        .build('https://www.mcrepairs.co.za')
         .save('./public/sitemap-index.xml')
 );
